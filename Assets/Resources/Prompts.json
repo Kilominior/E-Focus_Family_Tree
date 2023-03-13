@@ -1,0 +1,100 @@
+{
+    "PromptsList": [
+        {
+            "promptCause": "1FullTo0",
+            "promptItself": "仅当在编辑区为空时，才能改变聚焦成员。"
+        },
+        {
+            "promptCause": "haveSonTo1",
+            "promptItself": "该成员有孩子存在，不能在编辑区进行编辑，请将其拖入聚焦圈以对其做出改动。"
+        },
+        {
+            "promptCause": "1To0",
+            "promptItself": "编辑区内的成员无法直接成为聚焦成员，因为它并未与任何成员建立亲缘关系。"
+        },
+        {
+            "promptCause": "1Full",
+            "promptItself": "编辑区内同时仅能存在一名成员。"
+        },
+        {
+            "promptCause": "2Full",
+            "promptItself": "聚焦成员已经有父母存在，若欲对其父母进行改动，请将其拖入聚焦圈。"
+        },
+        {
+            "promptCause": "3Full",
+            "promptItself": "聚焦成员已经有祖父母存在，若欲对其祖父母进行改动，请将其拖入聚焦圈。"
+        },
+        {
+            "promptCause": "4Full",
+            "promptItself": "同辈区最多仅能容纳15名同辈成员，当前数量已达到上限。"
+        },
+        {
+            "promptCause": "5Full",
+            "promptItself": "孩子区最多仅能容纳16名孩子成员，当前数量已达到上限。"
+        },
+        {
+            "promptCause": "No2to3",
+            "promptItself": "由于聚焦成员的父母亲尚未创建，无法为其添加祖父母。"
+        },
+        {
+            "promptCause": "No2to4",
+            "promptItself": "由于聚焦成员的父母亲尚未创建，无法为其添加同辈成员。"
+        },
+        {
+            "promptCause": "illegal",
+            "promptItself": "移动不合理，请通过将成员设置为聚焦成员来做出亲缘关系修改。"
+        },
+        {
+            "promptCause": "2Del",
+            "promptItself": "注意：删除聚焦成员的父母，将会同时删除其同辈成员，以及更高辈分的所有成员（若有），确定要执行吗？"
+        },
+        {
+            "promptCause": "3Del",
+            "promptItself": "注意：删除聚焦成员的祖父母，将会同时删除其除父母以外、更高辈分的所有成员（若有），确定要执行吗？"
+        },
+        {
+            "promptCause": "haveSonDel",
+            "promptItself": "注意：删除该成员，将会同时删除其所有后辈成员(若有)，确定要执行吗？"
+        },
+        {
+            "promptCause": "saveWithoutChief",
+            "promptItself": "无法保存文件！请先保证家族有族长成员，再进行保存。"
+        },
+        {
+            "promptCause": "saveWithEditor",
+            "promptItself": "无法保存文件！编辑区的成员不会被保存，请先将编辑区的成员加入家族树或删除，再尝试保存。"
+        },
+        {
+            "promptCause": "saveTextIlligal",
+            "promptItself": "无法保存文件！保存时文件名应符合命名规范，请检查并修改。"
+        },
+        {
+            "promptCause": "loadWithEditor",
+            "promptItself": "无法加载文件！编辑区的成员不能跨文件保留，请先将编辑区的成员加入家族树或删除，再尝试加载。"
+        },
+        {
+            "promptCause": "loadTextIlligal",
+            "promptItself": "无法加载文件！输入的文件名不合法"
+        },
+        {
+            "promptCause": "loadFileIlligal",
+            "promptItself": "无法加载文件！没能在指定位置找到请求的文件，请再次检查文件位置是否正确。"
+        },
+        {
+            "promptCause": "saveSucceed",
+            "promptItself": "文件保存成功！"
+        },
+        {
+            "promptCause": "loadSucceed",
+            "promptItself": "文件加载成功！"
+        },
+        {
+            "promptCause": "exitWithEditor",
+            "promptItself": "无法返回主页面！退出时编辑区不能有成员，请先将编辑区的成员加入家族树或删除，再尝试退出。"
+        },
+        {
+            "promptCause": "exitNoChief",
+            "promptItself": "无法返回主页面！退出时家族树中需要存在族长，请先指定族长，再尝试退出。"
+        }
+    ]
+}
